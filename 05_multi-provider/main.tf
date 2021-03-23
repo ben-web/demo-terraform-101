@@ -14,7 +14,7 @@ variable "namespace" {
 
 provider "github" {
   token        = var.github_token
-  organization = "placeholder"
+  organization = "ben-web"
 }
 
 provider "aws" {
